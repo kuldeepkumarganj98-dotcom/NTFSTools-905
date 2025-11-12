@@ -35,7 +35,7 @@ public class AppTest {
     @Test
     public void testWithZerosValues() {
     	App app = new App();
-      	int expected=0;
+      	int expected=10;
       	int actual=app.sum(0,0);
         assertEquals(expected, actual);
     	
