@@ -32,6 +32,7 @@ public class AppTest {
         assertEquals(expected, actual);
     }
     
+    @Test
     public void testWithZerosValues() {
     	App app = new App();
       	int expected=0;
